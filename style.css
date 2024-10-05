@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: tomato;
+}
+
+header{
+    background-color: brown;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}

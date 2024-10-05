@@ -15,3 +15,51 @@ header{
     justify-content: space-between;
     z-index: 1;
 }
+
+.menus{
+    display: flex;
+    justify-content: space-between; /* Alinha os itens com espaçamento */
+    background-color: #ddd;
+    width: 27%;
+    margin: 0 75px;
+    align-items: center;
+    font-size: 30px;
+    font-family: arial system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menus a{
+    text-decoration: none;
+    color: white;
+}
+
+.anime-era{
+    background-color: aqua;
+    margin-top: 18px;
+    font-size: 20px;
+    display: flex;
+    margin-right: 130px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline #fcff1e;
+}
+
+.anime-era h1{
+    color: #fcff1e;
+}
+
+.icones{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 20%;
+    font-size: 50px;  /* Tamanho dos ícones */
+   /* Espaçamento entre os ícones */
+    display: flex;
+    gap: 40px;
+}
+
+.icones a{
+    text-decoration: none;
+    color: white;
+}

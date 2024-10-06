@@ -66,8 +66,8 @@ header{
     width: 60%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: absolute;
-    top: 23%;
-    margin: 35px;
+    top: 25%;
+    margin: auto 30px;
 }
 
 .conteudo h1{
@@ -93,12 +93,41 @@ header{
     margin-top: 12px;
 }
 
-.estrelas {
-    background-color: whitesmoke;
-    color: #fcff1e;
-    margin-top: 25px;
+.estrelas{
+    background-color: aqua;
+    width: 20%;
     display: flex;
-    width: 30%;
-    font-size: 40px;
     justify-content: space-between;
+    font-size: 40px;
+    margin-top: 27px;
 }
+
+.estrelas i{
+    color: #fcff1e;
+    cursor: pointer;
+}
+
+.estrelas i:hover {
+    color: #ffc107;
+}
+
+.botoes{
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 30%;
+}
+
+.botao1{
+    background-color: #fcff1e;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    border: none;
+    height: 45px;
+    width: 250px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+

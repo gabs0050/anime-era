@@ -59,21 +59,22 @@ header{
 }
 
 .conteudo{
-    background-color: blueviolet;
+    background-color: aquamarine;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 60%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: absolute;
-    top: 25%;
+    top: 23%;
     margin: auto 30px;
 }
 
 .conteudo h1{
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 120px;
+    font-size: 110px;
     font-weight: 800;
+    color: white;
 }
 
 .conteudo h2{
@@ -87,14 +88,12 @@ header{
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     color: white;
-    background-color: deeppink;
     width: 46%;
     font-size: 33px;
     margin-top: 12px;
 }
 
 .estrelas{
-    background-color: aqua;
     width: 20%;
     display: flex;
     justify-content: space-between;
@@ -112,7 +111,6 @@ header{
 }
 
 .botoes{
-    background-color: crimson;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
@@ -131,9 +129,10 @@ header{
     font-weight: bold;
     border: none;
     height: 55px;
-    width: 250px;
+    width: 280px;
     border-radius: 30px;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .botao2{
@@ -144,7 +143,41 @@ header{
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     height: 55px;
-    width: 250px;
+    width: 280px;
     font-size: 30px;
+    cursor: pointer;
 }
 
+.setas{
+    background-color: aquamarine;
+    width: 12.5%;
+    height: 10%;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.setas i{
+    font-size: 65px;
+    color: rgb(0, 0, 0);
+    border-width: 20px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.seta1{
+    border-radius: 60px;
+    background-color: rgba(222, 184, 135, 0);
+    width: 100px;
+    height: 100px;
+    transform: rotate(-180deg);
+}
+
+.seta2{
+    border-radius: 60px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100px;
+    height: 100px;
+}

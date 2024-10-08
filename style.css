@@ -1,11 +1,17 @@
 * {
+    max-width: 1780px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    background-color: tomato;
+    background-image: url(./IMAGENS/chainsaw-man.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
 }
 
 header{
@@ -59,14 +65,13 @@ header{
 }
 
 .conteudo{
-    background-color: aquamarine;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 60%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: absolute;
-    top: 23%;
+    top: 20%;
     margin: auto 30px;
 }
 
@@ -119,7 +124,7 @@ header{
 }
 
 .botao1 i{
-    margin-right: 7px;
+    margin-right: 7px;    
 }
 
 .botao1{
@@ -149,22 +154,28 @@ header{
 }
 
 .setas{
-    background-color: aquamarine;
-    width: 12.5%;
+    width: 12%;
     height: 10%;
     position: absolute;
-    top: 85%;
-    left: 10%;
+    top: 80%;
+    left: 12%;
     display: flex;
     justify-content: space-between;
+    border-color: white;
 }
 
 .setas i{
-    font-size: 65px;
-    color: rgb(0, 0, 0);
-    border-width: 20px;
-    border-color: white;
+    font-size: 40px;
+    color: white;
+    border: solid 7px white;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+
 }
 
 .seta1{
@@ -180,4 +191,8 @@ header{
     background-color: rgba(255, 255, 255, 0);
     width: 100px;
     height: 100px;
+}
+
+.setas button{
+    border: none;
 }

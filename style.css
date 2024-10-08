@@ -196,3 +196,17 @@ header{
 .setas button{
     border: none;
 }
+
+.imagens{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.imagens img{
+    width: 24%;
+    height: 600px;
+    border-radius: 20px;
+}

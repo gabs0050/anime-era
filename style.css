@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body{
@@ -198,15 +199,23 @@ header{
 }
 
 .imagens{
-    background-color: blueviolet;
     display: flex;
+    transform: scale(0.80);
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 90%;
+    width: 95%;
+    margin-left: 24%;
+    margin-top: 16%;
+    overflow: visible;
 }
 
 .imagens img{
     width: 24%;
     height: 600px;
-    border-radius: 20px;
+    border-radius: 25px;
+    transition: 0.8s;
+}
+
+.imagens img:hover{
+    transform: scale(1.2);
 }

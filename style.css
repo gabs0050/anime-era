@@ -1,5 +1,4 @@
 * {
-    max-width: 1780px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -158,8 +157,8 @@ header{
     width: 12%;
     height: 10%;
     position: absolute;
-    top: 80%;
-    left: 12%;
+    top: 87%;
+    left: 17%;
     display: flex;
     justify-content: space-between;
     border-color: white;
@@ -176,7 +175,6 @@ header{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-
 }
 
 .seta1{
@@ -204,8 +202,8 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
     width: 95%;
-    margin-left: 24%;
-    margin-top: 16%;
+    margin-left: 27%;
+    margin-top: 19%;
     overflow: visible;
 }
 
